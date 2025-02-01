@@ -1,9 +1,5 @@
 <svg class="logo" viewBox="0 0 820 820" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .logo {
-      --guard-primary: #08115e;
-      --guard-secondary: #5b6af0;
-    }
     .logo__circuit-path,
     .logo__core-circle {
       fill: #f1f5f9;
@@ -27,21 +23,21 @@
     }
     .logo__guard-bottom {
       fill: none;
-      stroke: var(--guard-primary);
+      stroke: #08115e;
       stroke-width: 20;
     }
     .logo__guard-bottom-inner-circle {
-      fill: var(--guard-primary);
+      fill: #08115e;
       stroke: none;
     }
     .logo__guard-top {
       fill: none;
-      stroke: var(--guard-primary);
+      stroke: #08115e;
       stroke-width: 20;
     }
     .logo__guard-top-inner-circle {
       fill: #f1f5f9;
-      stroke: var(--guard-primary);
+      stroke: #08115e;
       stroke-width: 10;
     }
   </style>
