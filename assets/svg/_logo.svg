@@ -1,16 +1,8 @@
 <svg class="logo" viewBox="0 0 820 820" xmlns="http://www.w3.org/2000/svg">
   <style>
     .logo {
-      --cross-gradient-s1: #04082f;
-      --cross-gradient-s2: #08115e;
-      --cross-gradient-s3: #04082f;
-      --face-fill: #04082f;
       --guard-primary: #08115e;
       --guard-secondary: #5b6af0;
-    }
-    .logo__background {
-      fill: none;
-      stroke: none;
     }
     .logo__circuit-path,
     .logo__core-circle {
@@ -20,20 +12,17 @@
       stroke: #8a95f4;
       stroke-width: 3;
     }
-    .logo__cross {
-      fill: url(#logo__cross-gradient);
-    }
     .logo__cross-gradient-s1 {
-      stop-color: var(--cross-gradient-s1);
+      stop-color: #04082f;
     }
     .logo__cross-gradient-s2 {
-      stop-color: var(--cross-gradient-s2);
+      stop-color: #08115e;
     }
     .logo__cross-gradient-s3 {
-      stop-color: var(--cross-gradient-s3);
+      stop-color: #04082f;
     }
     .logo__face-silhouette {
-      fill: var(--face-fill);
+      fill: #04082f;
       stroke: none;
     }
     .logo__guard-bottom {
